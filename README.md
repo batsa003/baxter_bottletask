@@ -7,7 +7,6 @@ Instructor:  Junaed Sattar
 
 Project by: Bat-Orgil Batsaikhan
 
-<a name="Overview"></a> 
 Overview
 -------------
 
@@ -24,11 +23,14 @@ Required tools and set up
 - Baxter Robot (from Rethink Robotics)
 - [ROS Kinetic] (Or, ROS Indigo for Ubuntu 14.04)
 - [Baxter Setup](http://sdk.rethinkrobotics.com/wiki/Baxter_Setup)
-- ROS Environment variables must be set properly in order to be able to connect and interface with baxter. It can be useful to add the following lines of code into your .bashrc:
+
+Please setup the catkin workspace using the Hello Baxter tutorial.
 
 ------------
 Running the Program
 -------------
+Once you setup the catkin workspace using the tutorial, copy the package bat under src.
+
 You need to enable the robot using the Hello Baxter tutorial from Rethink Robotics. After this, open the right hand camera with 960x600 resolution (works best for me).
 
 Currently, I'm running the scripts through Jupyter Notebook. The object detection only works for water bottles with a small cap and a round opening.
