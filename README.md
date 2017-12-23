@@ -15,7 +15,9 @@ Overview
 The goal of the project is to have Baxter detect the cap and the bottle via right hand camera and placing the cap on the bottle. The MoveIt! package's Inverse Kinematics Service along with ROS integration of Baxter were leveraged for the movement of the arm. OpenCV was used to perform image processing for object detection.
 
 Please click on the following image to watch the demo!
+
 [![Video1](https://ibb.co/k7cdPm)](https://drive.google.com/file/d/18sGaCG7gbiijbqib7HrNwQPrwOWVAdSS/view?usp=sharing)
+
 [![Video2](https://ibb.co/k7cdPm)](https://drive.google.com/file/d/1jFv60ZlL8Ck7MG7n_YIpYOsp02bKXgC6/view?usp=sharing)
 
 ----------
